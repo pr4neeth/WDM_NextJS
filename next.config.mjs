@@ -7,7 +7,7 @@ const nextConfig = {
           headers: [
             {
               key: 'Access-Control-Allow-Origin',
-              value: 'http://localhost:5173', // Allowing all origins, adjust this for security (e.g., 'http://localhost:5173')
+              value: '*', // Allowing all origins, adjust this for security (e.g., 'http://localhost:5173')
             },
             {
               key: 'Access-Control-Allow-Methods',
